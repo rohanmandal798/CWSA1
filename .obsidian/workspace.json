@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "481f8cdeb7752b41",
+    "type": "split",
+    "children": [
+      {
+        "id": "690f91939b9462ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7d65f6643423e64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Module - 1 ( Introduction & Mail Server Overview )"
+            }
+          },
+          {
+            "id": "c9f898309ced01a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Module - 1 ( Introduction & Mail Server Overview )"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e9dd31c39e201da7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7965bd2e333d5c84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d12d20979ffcba4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0a71b7d864163ca4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f813c265eaee8753",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d8c69c2ed926d27",
+    "type": "split",
+    "children": [
+      {
+        "id": "295de151bdbd4037",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd839d9df2696685",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "41c9322a247e1cd9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e2ead9e6b4fb5405",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "773fc1fdfcb035ef",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "aec7f5a5a2f788eb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c9f898309ced01a2",
+  "lastOpenFiles": [
+    "README.md",
+    "Reources.md",
+    "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+    "Administering Mail from the Command Line/Module - 3.md",
+    "Administering Mail from the Command Line/Module - 2.md",
+    "Administering Mail from the Command Line/Module - 4.md",
+    "Administering Mail from the Command Line"
+  ]
+}
