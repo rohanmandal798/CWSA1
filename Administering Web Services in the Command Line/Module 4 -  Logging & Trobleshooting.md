@@ -3,9 +3,9 @@ Lesson - 2 : Reading the Access Logs
 Lesson - 3 : Reading the Error Logs**
 
 
-![[Pasted image 20261006155044.png]]
+![[Image1.png]]
 
-![[Pasted image 20261006155112.png]]
+![[Image2.png]]
 
 
 # Lesson 1: Introduction & Quick Reference
@@ -112,7 +112,7 @@ For **500 errors**, don't guess. **Check the logs first.**
 
 This lesson is important for **cPanel/Linux web hosting troubleshooting**.
 
-![[Pasted image 20261006155557.png]]
+![[Image3.png]]
 ## 1. What is an Apache Access Log?
 
 The **access log** records requests made to the web server.
@@ -402,7 +402,7 @@ User-Agent
 
 ---
 
-![[Pasted image 20261006155724.png]]
+![[Image4.png]]
 
 # Lesson 3: Reading the Error Logs
 
