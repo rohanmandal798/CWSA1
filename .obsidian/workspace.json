@@ -11,12 +11,14 @@
             "id": "20d7ee79561e5467",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Administering Web Services in the Command Line/Image1.png"
+                "file": "Administering Web Services in the Command Line/Module 1 - Introduction to EA4 on the CLI.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "Image1"
+              "icon": "lucide-file",
+              "title": "Module 1 - Introduction to EA4 on the CLI"
             }
           }
         ]
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+                "file": "Administering Web Services in the Command Line/Module 1 - Introduction to EA4 on the CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,17 +188,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "0d12d20979ffcba4",
+  "active": "20d7ee79561e5467",
   "lastOpenFiles": [
+    "Administering Web Services in the Command Line/Image1.png",
+    "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
+    "Administering Web Services in the Command Line/Module 4 -  Logging & Trobleshooting.md",
+    "Administering Web Services in the Command Line/Module 1 - Introduction to EA4 on the CLI.md",
+    "Administering Web Services in the Command Line/Module 5 - Final Module Exam.md",
     "Administering Web Services in the Command Line/Image3.png",
     "Administering Web Services in the Command Line/Image4.png",
     "Administering Web Services in the Command Line/Image2.png",
-    "Administering Web Services in the Command Line/Image1.png",
     "Administering Web Services in the Command Line/Module 2 - Managing Apache in EA4.md",
-    "Administering Web Services in the Command Line/Module 1 - Introduction to EA4 on the CLI.md",
     "Administering Web Services in the Command Line/Module 3 - MultiPHP on the CLI.md",
-    "Administering Web Services in the Command Line/Module 4 -  Logging & Trobleshooting.md",
-    "Administering Web Services in the Command Line/Module 5 - Final Module Exam.md",
     "Administering Web Services in the Command Line/Interview Question.md",
     "README.md",
     "Reources.md",
@@ -204,7 +207,6 @@
     "Pasted image 20261006104952.png",
     "Administering Web Services in the Command Line/Administering Web Services in the Command Line.md",
     "Administering Web Services in the Command Line",
-    "Administering Mail from the Command Line/Module - 1 ( Introduction & Mail Server Overview ).md",
     "Administering Mail from the Command Line/Module - 2.md",
     "Administering Mail from the Command Line/Module - 3.md",
     "Administering Mail from the Command Line"

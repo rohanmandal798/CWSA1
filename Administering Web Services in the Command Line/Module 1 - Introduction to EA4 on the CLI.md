@@ -1,11 +1,11 @@
-**Lesson - 1 : Introduction & Preparation
-Lesson - 2 : Looking into Apache
-Lesson - 3 : Looking into Package Managers
-Lesson - 4 : Looking into PHP**
+- **Lesson - 1 : Introduction & Preparation**
+- **Lesson - 2 : Looking into Apache**
+- **Lesson - 3 : Looking into Package Managers**
+- **Lesson - 4 : Looking into PHP**
 
-## Lesson 1: Introduction to EA4 on the CLI
+# Lesson 1: Introduction to EA4 on the CLI
 
-### 1. What is EasyApache 4?
+## 1. What is EasyApache 4?
 
 **EasyApache 4 (EA4)** is cPanel's system for managing:
 
@@ -63,7 +63,7 @@ yum / RPM
 
 ---
 
-### 2. Why is this important?
+## 2. Why is this important?
 
 Suppose you need to install an Apache module.
 
@@ -106,7 +106,7 @@ This is useful when:
 
 ---
 
-### 3. What is `yum`?
+## 3. What is `yum`?
 
 `yum` is a **package manager** commonly used on RPM-based Linux systems.
 
@@ -150,7 +150,7 @@ yum list package
 
 ---
 
-### 4. EA4 Package Naming
+## 4. EA4 Package Naming
 
 EA4 packages commonly use prefixes such as:
 
@@ -192,7 +192,7 @@ ea-php83
 
 ---
 
-### 5. Install a Package
+## 5. Install a Package
 
 General syntax:
 
@@ -232,7 +232,7 @@ y
 
 ---
 
-### 6. Remove a Package
+## 6. Remove a Package
 
 ```
 yum remove package-name
@@ -252,7 +252,7 @@ Always understand dependencies before confirming.
 
 ---
 
-### 7. Update Packages
+## 7. Update Packages
 
 Update a specific package:
 
@@ -282,7 +282,7 @@ You should understand what packages will change and whether the update can affec
 
 ---
 
-### 8. `yum list`
+## 8. `yum list`
 
 One of the objectives specifically mentions:
 
@@ -327,7 +327,7 @@ ea-php83.x86_64
 
 ---
 
-### 9. `yum info`
+## 9. `yum info`
 
 `yum info` gives detailed information about a package.
 
@@ -359,7 +359,7 @@ Description : ...
 
 ---
 
-### 10. What is an MPM?
+## 10. What is an MPM?
 
 The lesson also mentions:
 
@@ -399,7 +399,7 @@ In EA4, Apache MPM configuration is managed through EA4 packages/configuration.
 
 ---
 
-### 11. Experimental Repository
+## 11. Experimental Repository
 
 Another course objective is:
 
@@ -427,7 +427,7 @@ The exact repository-management commands can depend on the cPanel/OS version, so
 
 ---
 
-# 12. The Big Picture
+## 12. The Big Picture
 
 You should understand this workflow:
 
@@ -471,7 +471,7 @@ Apache/PHP configuration
 
 ---
 
-### 13. Commands We Should Practice
+## 13. Commands We Should Practice
 
 On an actual **cPanel/EA4 server**, practice:
 
@@ -517,7 +517,7 @@ These help you understand what Apache and PHP are actually installed.
 
 # Lesson 1: Understanding the Terminology
 
-### Quick understanding
+## Quick understanding
 
 |Term|Simple meaning|Example|
 |---|---|---|
@@ -528,7 +528,7 @@ These help you understand what Apache and PHP are actually installed.
 |**Thread**|Execution unit inside a process|Apache worker thread|
 |**Repository**|Server/location containing packages|EA4 repository|
 
-### 1. Wildcard
+## 1. Wildcard
 
 `*` means **zero or more characters**.
 
@@ -556,7 +556,7 @@ anything
 
 ---
 
-### 2. String
+## 2. String
 
 A **string** is simply a sequence of characters treated as text.
 
@@ -579,7 +579,7 @@ Here, `"apache"` is a string.
 
 ---
 
-### 3. Regular Expression
+## 3. Regular Expression
 
 A **regular expression**, or regex, is a pattern used to search or match text.
 
@@ -603,7 +603,7 @@ This is particularly useful when managing many EA4 packages.
 
 ---
 
-### 4. RPM
+## 4. RPM
 
 RPM stands for:
 
@@ -627,7 +627,7 @@ ea-php83-php-mysqlnd
 
 ---
 
-### 5. Thread
+## 5. Thread
 
 A **thread** is an execution unit inside a process.
 
@@ -653,7 +653,7 @@ event
 
 ---
 
-### 6. Repository
+## 6. Repository
 
 A **repository** is a source containing software packages.
 
@@ -719,7 +719,7 @@ Apache receives the request and looks for the requested resource, then sends the
 
 ---
 
-# 2. What is a Web Server?
+## 2. What is a Web Server?
 
 A web server is software that:
 
@@ -753,7 +753,7 @@ content-type: text/html
 
 ---
 
-# 3. Apache Uses Modules
+## 3. Apache Uses Modules
 
 One of the most important points from this lesson:
 
@@ -781,7 +781,7 @@ Instead of putting every feature directly into Apache, functionality can be adde
 
 ---
 
-# 4. Apache Modules in EasyApache 4
+## 4. Apache Modules in EasyApache 4
 
 This is where **EA4** becomes important.
 
@@ -822,7 +822,7 @@ The exact available packages depend on the server and repositories.
 
 ---
 
-# 5. What is CGI?
+## 5. What is CGI?
 
 The lesson also introduces **CGI**.
 
@@ -865,7 +865,7 @@ The program generates output, and Apache sends that output back to the browser.
 
 ---
 
-# 6. Apache Module vs CGI
+## 6. Apache Module vs CGI
 
 These are different concepts.
 
@@ -886,7 +886,7 @@ CGI = Apache talks to external program
 
 ---
 
-# 7. Why This Matters in cPanel
+## 7. Why This Matters in cPanel
 
 In a cPanel environment, you will frequently work with:
 
@@ -933,7 +933,7 @@ You need to understand whether the problem is related to:
 
 ---
 
-# 8. Important CLI Commands
+## 8. Important CLI Commands
 
 ### Check Apache version
 
@@ -990,7 +990,7 @@ systemctl reload httpd
 
 ---
 
-# 9. Check Apache Modules
+## 9. Check Apache Modules
 
 You can use:
 
@@ -1024,7 +1024,7 @@ This is very useful during troubleshooting.
 
 ---
 
-# 10. Apache + MPM
+## 10. Apache + MPM
 
 Apache uses an **MPM**, or Multi-Processing Module, to handle connections and request processing.
 
@@ -1183,7 +1183,7 @@ Apache
 
 ---
 
-# 3. Why Is This Design Useful?
+## 3. Why Is This Design Useful?
 
 Imagine Apache is broken because of a bad configuration.
 
@@ -1208,7 +1208,7 @@ That's one reason this architecture is useful for server administration.
 
 ---
 
-# 4. Two Ways to Manage EA4
+## 4. Two Ways to Manage EA4
 
 EasyApache 4 can be managed through:
 
@@ -1242,7 +1242,7 @@ This course is specifically focused on:
 
 ---
 
-# 5. EA4 Configuration Files
+## 5. EA4 Configuration Files
 
 Another important point:
 
@@ -1286,7 +1286,7 @@ That last point is particularly important on cPanel servers.
 
 ---
 
-# 6. Important cPanel Support Concept
+## 6. Important cPanel Support Concept
 
 If you're working on a cPanel server, don't think:
 
@@ -1393,7 +1393,7 @@ Expected:
 
 ---
 
-# 2. Apache Logs
+### 2. Apache Logs
 
 ```
 /var/log/apache2/
@@ -1434,7 +1434,7 @@ For troubleshooting, logs are usually one of your **first places to check**.
 
 ---
 
-# 3. Apache Configuration
+## 3. Apache Configuration
 
 ```
 /etc/apache2/
@@ -1462,7 +1462,7 @@ find /etc/apache2 -maxdepth 2 -type f
 
 ---
 
-# 4. Apache Modules
+## 4. Apache Modules
 
 ```
 /usr/lib[64]/apache2/modules/
@@ -1497,7 +1497,7 @@ The `.so` files are compiled shared-object modules.
 
 ---
 
-# 5. EA4 Apache Templates
+## 5. EA4 Apache Templates
 
 ```
 /var/cpanel/templates/apache2_*
@@ -1537,7 +1537,7 @@ EA4/cPanel may regenerate configuration, so you need to understand **which files
 
 ---
 
-# 6. cPanel User Data
+## 6. cPanel User Data
 
 ```
 /var/cpanel/userdata/
@@ -1571,7 +1571,7 @@ This becomes particularly useful when troubleshooting **virtual hosts and domain
 
 ---
 
-# The 6 Paths You MUST Memorize
+### The 6 Paths You MUST Memorize
 
 Use this memory table:
 
@@ -1647,7 +1647,7 @@ means:
 
 ---
 
-# 2. What is YUM?
+## 2. What is YUM?
 
 **YUM** stands for:
 
@@ -1684,7 +1684,7 @@ Download / Install packages
 
 ---
 
-# 3. What Can YUM Do?
+## 3. What Can YUM Do?
 
 ### Install
 
@@ -1744,7 +1744,7 @@ These commands are worth knowing for your interview.
 
 ---
 
-# 4. YUM and RPM
+## 4. YUM and RPM
 
 Don't confuse **YUM** and **RPM**.
 
@@ -1775,7 +1775,7 @@ So:
 
 ---
 
-# 5. What is a Repository?
+## 5. What is a Repository?
 
 A repository is basically a **package warehouse**.
 
@@ -1811,7 +1811,7 @@ The exact repositories depend on the server.
 
 ---
 
-# 6. Ubuntu and APT
+## 6. Ubuntu and APT
 
 The course is mainly focused on **RHEL-based systems**, but cPanel also supports Ubuntu.
 
@@ -1872,7 +1872,7 @@ The basic idea is the same, but the package ecosystem is different.
 
 ---
 
-# 7. Important: `yum update` vs `apt update`
+## 7. Important: `yum update` vs `apt update`
 
 This can confuse beginners.
 
@@ -1904,7 +1904,7 @@ So don't blindly assume these commands behave exactly the same.
 
 ---
 
-# 8. Why This Matters for EasyApache
+## 8. Why This Matters for EasyApache
 
 EA4 uses packages for its components.
 
@@ -1934,7 +1934,7 @@ Therefore, if you understand YUM, you can understand a large part of **EA4 CLI a
 
 ---
 
-# 9. Practical Commands
+## 9. Practical Commands
 
 On an actual EA4 server, these are useful:
 
@@ -2070,7 +2070,7 @@ So the key idea is:
 
 ---
 
-# 2. When Should You Use a Profile?
+## 2. When Should You Use a Profile?
 
 If you have **many changes**, using individual `yum` commands becomes inconvenient.
 
@@ -2097,7 +2097,7 @@ So remember:
 
 ---
 
-# 3. Important EA4 Package Manager Paths
+## 3. Important EA4 Package Manager Paths
 
 There are **4 paths** you should memorize from this section.
 
@@ -2143,7 +2143,7 @@ This is useful when you have a server configured the way you want and want to sa
 
 ---
 
-# 4. Repository Folder
+## 4. Repository Folder
 
 For YUM:
 
@@ -2184,7 +2184,7 @@ Conceptually:
 
 ---
 
-# 5. YUM Universal Hooks
+## 5. YUM Universal Hooks
 
 The course gives this path:
 
@@ -2225,7 +2225,7 @@ You don't need to memorize the entire hook mechanism yet. Just understand **what
 
 ---
 
-# 6. Four Paths to Memorize
+## 6. Four Paths to Memorize
 
 ### EA4 Profile Installation
 
@@ -2265,7 +2265,7 @@ You don't need to memorize the entire hook mechanism yet. Just understand **what
 
 ---
 
-# 7. Easy Memory Trick
+## 7. Easy Memory Trick
 
 Think:
 
@@ -2334,7 +2334,7 @@ APT Hooks
 
 ---
 
-# 1. What is PHP?
+## 1. What is PHP?
 
 **PHP** stands for:
 
@@ -2368,7 +2368,7 @@ For example, a WordPress website commonly uses PHP.
 
 ---
 
-# 2. PHP Uses the Zend Engine
+## 2. PHP Uses the Zend Engine
 
 The PHP interpreter used by cPanel is powered by the **Zend Engine**.
 
@@ -2395,7 +2395,7 @@ Just remember:
 
 ---
 
-# 3. cPanel Has PHP in Two Contexts
+## 3. cPanel Has PHP in Two Contexts
 
 This is one of the most important points in this lesson.
 
@@ -2448,7 +2448,7 @@ This course focuses on:
 
 ---
 
-# 4. PHP Extensions
+## 4. PHP Extensions
 
 PHP can be extended using **extensions**.
 
@@ -2480,7 +2480,7 @@ PECL can provide extensions that aren't available through EasyApache.
 
 ---
 
-# 5. EA4 vs PECL
+## 5. EA4 vs PECL
 
 The course gives an important rule:
 
@@ -2523,7 +2523,7 @@ Consider PECL
 
 ---
 
-# 6. PHP Binary
+## 6. PHP Binary
 
 The first important PHP path is:
 
@@ -2569,7 +2569,7 @@ Expected:
 
 ---
 
-# 7. PHP Configuration
+## 7. PHP Configuration
 
 The course gives:
 
@@ -2603,7 +2603,7 @@ less /etc/apache2/conf.d/php.conf
 
 ---
 
-# 8. PHP Rebuild Tool
+## 8. PHP Rebuild Tool
 
 Another very important path:
 
@@ -2633,7 +2633,7 @@ This is especially relevant when dealing with PHP handler/configuration changes.
 
 ---
 
-# 9. MultiPHP Base Path
+## 9. MultiPHP Base Path
 
 The course gives:
 
@@ -2677,7 +2677,7 @@ if PHP 8.3 is installed.
 
 ---
 
-# 10. Why MultiPHP Matters
+## 10. Why MultiPHP Matters
 
 cPanel supports multiple PHP versions on the same server.
 
@@ -2709,7 +2709,7 @@ This is the basic idea behind **MultiPHP**.
 
 ---
 
-# 11. PHP Paths to Memorize
+## 11. PHP Paths to Memorize
 
 These are the four paths from this lesson:
 
@@ -2738,7 +2738,7 @@ MultiPHP Base Path
 
 ---
 
-# 12. Useful CLI Commands
+## 12. Useful CLI Commands
 
 Check PHP:
 
@@ -2786,7 +2786,7 @@ These are very useful for troubleshooting PHP applications.
 
 ---
 
-# 13. Example Troubleshooting
+## 13. Example Troubleshooting
 
 Suppose a customer says:
 

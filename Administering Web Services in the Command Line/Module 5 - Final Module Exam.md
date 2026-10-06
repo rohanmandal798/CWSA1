@@ -1,11 +1,3 @@
-## Question 20
-
-A **Regular Expression (regex)** is a special text pattern syntax used to describe search patterns.
-
-✅ **Correct answer: d. Regular Expression**
-
-**Collected: 20/20**
-
 # Final 20 Questions and Answers
 
 |#|Question|Answer|
